@@ -12,9 +12,6 @@ Este projeto apresenta **cards de usuário** com descrição curta, avaliação 
 - HTML5  
 - CSS3  
 
-## 🎯 Objetivo
-Criar uma interface simples e estilosa para exibir perfis de usuários em cards dinâmicos, aprimorando conceitos de **UI/UX** e **design moderno**.
-
 ## 📌 Observações
 - O design utiliza **Font Awesome** para ícones.  
 - Os botões são apenas decorativos, sem funcionalidade prática.  
