@@ -1,6 +1,6 @@
 # 🃏 Projeto Usuario Card
 
-Este projeto apresenta **cards de usuário** com descrição curta, avaliação por estrelas e botões **Read More** e **Assinar** apenas para efeito visual.
+Este projeto apresenta **cards de usuário** com descrição curta, avaliação por estrelas e botões apenas para efeito visual.
 
 ## 📝 Recursos dos Cards
 - Exibição de nome e breve descrição do usuário.  
@@ -15,7 +15,6 @@ Este projeto apresenta **cards de usuário** com descrição curta, avaliação 
 ## 📌 Observações
 - O design utiliza **Font Awesome** para ícones.  
 - Os botões são apenas decorativos, sem funcionalidade prática.  
-- O layout é totalmente **responsivo**.
 
 ## 👀 Como Visualizar
 1. Clone o repositório ou baixe os arquivos.  
