@@ -9,126 +9,125 @@
 
 /* Estilização do corpo da página */
 body {
-    font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #811a7c;
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #811a7c;
 }
 
 /* Card Usuário */
 .container {
-    max-width: 1100px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-    flex-wrap: wrap;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  flex-wrap: wrap;
 }
 
 .container .box {
-    width: calc(33% - 10px);
-    background-color: aliceblue;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 20px 20px;
-    border-radius: 10px;
+  width: calc(33% - 10px);
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  border-radius: 10px;
 }
 
 /* Configurações Imagem */
 .box .image {
-    margin: 10px 0;
-    height: 150px;
-    width: 150px;
-    background-color: #811a7c;
-    padding: 3px;
-    border-radius: 50%;
+  margin: 10px 0;
+  height: 150px;
+  width: 150px;
+  background-color: #811a7c;
+  padding: 3px;
+  border-radius: 50%;
 }
 
 .box .image img {
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 2px solid #fff;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #fff;
 }
 
 /* Informações */
 .box .name {
-    margin: 10px 0 3px 0;
-    color: #811a7c;
-    font-size: 18px;
+  margin: 10px 0 3px 0;
+  color: #811a7c;
+  font-size: 18px;
 }
 
-.box .rating i{
-    font-size: 18px;
-    color: #811a7c;
-    margin-bottom: 5px;
+.box .rating i {
+  font-size: 18px;
+  color: #811a7c;
+  margin-bottom: 5px;
 }
 
 .box p {
-    text-align: justify;
-    margin-top: 8px;
-    font-size: 16px;
-    font-weight: 400;
+  text-align: justify;
+  margin-top: 8px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /* Botões */
 .btns {
-    margin: 20px 0 5px 0;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
+  margin: 20px 0 5px 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .btns button {
-    background-color: #811a7c;
-    width: 100%;
-    padding: 9px 0;
-    outline: none;
-    border: 2px solid #811a7c;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-    font-weight: 400;
-    color: #811a7c;
-     transition: transform 0.3s ease;
+  background-color: #811a7c;
+  width: 100%;
+  padding: 9px 0;
+  outline: none;
+  border: 2px solid #811a7c;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  color: #811a7c;
+  transition: transform 0.3s ease;
 }
 
 .btns button:first-child {
-    background: none;
-    margin-right: 5px;
+  background: none;
+  margin-right: 5px;
 }
 
 .btns button:last-child {
-   color: #fcf9ff;
-   margin-left: 5px;
+  color: #fcf9ff;
+  margin-left: 5px;
 }
 
 .btns button:first-child:hover {
-    background-color: #811a7c;
-    color: #fff;
+  background-color: #811a7c;
+  color: #fff;
 }
 
 .btns button:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 /* Responsividade */
-@media (max-width:1045px) {
-    .container .box {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
+@media (max-width: 1045px) {
+  .container .box {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
 
-@media (max-width:715px) {
+  @media (max-width: 715px) {
     .container .box {
-        width: 100%;
-        margin-bottom: 20px;
+      width: 100%;
+      margin-bottom: 20px;
     }
+  }
 }
-}
-
